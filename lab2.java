@@ -2,13 +2,13 @@
 
 
 /*
-    Diseñe un algoritmo que determine el área de la base (AB), el perímetro de la base 
-    (PB) y el área lateral (AL) de un cono del que se conoce el radio de su base (R) y 
-    su generatriz (G). Considere las siguientes fórmulas:
+Diseñe un algoritmo que determine el área de la base (AB), el perímetro de la base 
+(PB) y el área lateral (AL) de un cono del que se conoce el radio de su base (R) y 
+su generatriz (G). Considere las siguientes fórmulas:
 
-                         AB = 3.14 * R ^ 2 
-                         AL = (PB * G )/ 2  
-                         PB = 6.28 * R 
+AB = 3.14 * R ^ 2 
+AL = (PB * G )/ 2  
+PB = 6.28 * R 
 
 */  
 
