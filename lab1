@@ -1,11 +1,11 @@
 INDICE:
----------------
 
 ALGORITMO                     -> Linea 11
 CLASIFICACIÓN DE ALGORITMOS   -> Linea 18
 PROGRAMA                      -> Linea 30
 ETAPAS DE UN ALGORITMO        -> Linea 32
-
+VARIABLE                      -> Linea 38
+PSEUDOCÓDIGO                  -> Linea 40
 
 
 ALGORITMO: Un algoritmo es un método de solución de un problema expresado a través de un conjunto de pasos, procedimientos o acciones.
@@ -35,5 +35,13 @@ ETAPAS DE UN ALGORITMO: Todo Algoritmo tiene tres etapas.
  - Proceso de cálculo.
  - Salida de los resultados.
  
+ VARIABLE: Una variable es el nombre asignado a una zona (casilla) de la memoria RAM durante la ejecución de un programa con la finalidad de almacenar un valor o dato.
  
- 
+PSEUDOCÓDIGO: Ea una imitación del código fuente, con la ecepción de que este no tiene reglas formales, puede variar de un programador a otro.
+              Un pseudocódigo puede contener símbolos (+, -, *, /, =, etc.), términos (leer, imprimir, abrir, cerrar, etc.) y estructuras de programación 
+              (si, si...sino, hacer...mientras, mientras...hacer, para...mientras). Esto a su vez  permite al programador concentrarse en la lógica y 
+              en las estructuras de control y no preocuparse de las reglas de un lenguaje específico.
+              
+              
+ https://prnt.sc/237yf8v     
+              
