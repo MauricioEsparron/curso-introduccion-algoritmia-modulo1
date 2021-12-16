@@ -42,6 +42,33 @@ PSEUDOCÓDIGO: Ea una imitación del código fuente, con la ecepción de que est
               (si, si...sino, hacer...mientras, mientras...hacer, para...mientras). Esto a su vez  permite al programador concentrarse en la lógica y 
               en las estructuras de control y no preocuparse de las reglas de un lenguaje específico.
               
+   Ejemplo:     
+          Diseñe un algoritmo que determine el área de un círculo y la longitud de su 
+          circunferencia conociendo su radio. Considere las siguientes fórmulas:
+          
+          𝐴 = 3.1416 * r ^ 2  
+          𝐶 = 2 * 3.1416 * r
+          
+          Siendo 𝐴 el área y 𝐶 la longitud de la circunferencia.
+          
+          Solución:
+          
+          Inicio
+              // Declaración de variables
+              real r, A, C
               
- https://prnt.sc/237yf8v     
+              // Entrada de datos
+              Leer r
+             
+             // Proceso de cálculo
+              A = 3.1416*r*r
+              C = 3.1416*r
               
+              // Salida de resultado  
+             Imprimir A, C
+          Fin
+          
+          
+          
+          
+          
