@@ -1,14 +1,16 @@
 
-//Problema 1
-
 /*
-	 *  Diseñe un algoritmo que determine el área (A) y el perímetro (P) de un
-	 *  rectángulo del que se conoce su base (b) y su altura (h). Considere las
-   *  siguientes fórmulas:
+Diseñe un algoritmo que determine el área lateral (AL), el área total (AT) y el área 
+de la base (AB) de un cilindro del que se conoce su radio (r) y su altura (h). 
+Considere las siguientes fórmulas: 
 
-                    A = b * h
-                    p = 2 * (b + h)
+𝐴𝑇 = 2 * 𝐴𝐵 + 𝐴𝐿
+𝐴𝐵 = 3.1416 * 𝑟 ^ 2
+𝐴𝐿 = 2 * 3.1416 * 𝑟 * ℎ
+
 */
+
+
 
 package A_Estructuras_de_Secuencia;
 
