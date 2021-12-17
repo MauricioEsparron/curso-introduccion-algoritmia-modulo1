@@ -1,0 +1,60 @@
+
+ESTRUCTURA DE SELECCIÓN SIMPLE IF:
+
+La estructura de selección simple if evalúa una condición lógica y, en caso resulte verdadera, efectúa la acción acciona. En caso que la condición resulte falsa, 
+continúa con la siguiente instrucción del programa. La acción acciona puede ser una acción simple (una sola acción) o una acción compuesta (bloque de acciones).
+
+EJEMPLO:
+
+          -Una tienda vende un producto a precios unitarios que dependen de la cantidad de 
+           unidades adquiridas de acuerdo con lO siguiente.
+           
+           
+           Unidades adquiridas       Precio unitario
+                  1 a 25         ->     S/. 27.7
+                  26 a 50        ->     S/. 25.5
+                  51 a 75        ->     S/. 23.5
+               76 en adelante    ->     S/. 21.5
+           
+           
+           Adicionalmente, si el cliente adquiere más de 50 unidades la tienda le descuenta el 15% 
+           del importe de la compra; en caso contrario, sólo le descuenta el 5% del importe compra.
+           Diseñe un programa que determine el importe de la compra, el importe del descuento y 
+           el importe a pagar por la compra de cierta cantidad de unidades del producto.
+           
+           
+       Algoritmo
+       
+                Inicio
+                
+                  // Declaración de variables
+                  entero unidades;
+                  real impcom = 0, impdes, imppag
+
+                  // Entrada de datos
+                  Leer unidades
+
+                  // Calcula el importe de la compra
+                  si(unidades >= 1 && unidades <= 25)
+                        impcom = unidades*27.5
+                  si(unidades >= 26 && unidades <= 50)
+                        impcom = unidades*25.5
+                  si(unidades >= 51 && unidades <= 75)
+                       impcom = unidades*27.5
+                  si(unidades >= 76)
+                        impcom = unidades*27.5
+
+                  // Calcula el importe del descuento
+                  si(unidades > 50)
+                     impdes = 0.15*impcom
+                  sino
+                      impdes = 0.05*impcom
+
+                  // Calcula el importe a pagar
+                  imppag = impcom - impdes;
+
+                  // Salida de resultados
+                  Imprimir impcom, impdes, imppag
+                Fin
+                    
+           
